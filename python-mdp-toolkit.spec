@@ -13,6 +13,12 @@ Source0:	https://github.com/%{modname}/%{modname}/archive/%{srcname}-%{version}.
 BuildArch:      noarch
 
 %description
+Modular toolkit for Data Processing (MDP) is a Python
+data processing framework. From the user’s perspective,
+MDP is a collection of supervised and unsupervised
+learning algorithms and other data processing units that
+can be combined into data processing sequences and more
+complex feed-forward network architectures.
 
 %package -n python2-%{modname}
 Summary:        %{summary}
@@ -20,6 +26,12 @@ Summary:        %{summary}
 BuildRequires:  python2-devel
 BuildRequires:  numpy
 %description -n python2-%{modname}
+Modular toolkit for Data Processing (MDP) is a Python
+data processing framework. From the user’s perspective,
+MDP is a collection of supervised and unsupervised
+learning algorithms and other data processing units that
+can be combined into data processing sequences and more
+complex feed-forward network architectures.
 
 Python 2 version.
 
@@ -30,6 +42,12 @@ Summary:        %{summary}
 BuildRequires:  python3-devel
 BuildRequires:  python3-numpy
 %description -n python3-%{modname}
+Modular toolkit for Data Processing (MDP) is a Python
+data processing framework. From the user’s perspective,
+MDP is a collection of supervised and unsupervised
+learning algorithms and other data processing units that
+can be combined into data processing sequences and more
+complex feed-forward network architectures.
 
 Python 3 version.
 
